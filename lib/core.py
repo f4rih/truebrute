@@ -13,7 +13,7 @@ def engine(file, wordlist):
             if 'Incorrect' in result:
                 sys.stdout.write("\r[?] Attempting With : %s"%password)
                 sys.stdout.flush()
-                print "[!] Finish, Password Not in Your Wordlist ."
+                
             else:
                 print "\n[+] Password Found : %s"%password
                 print "[+]Done."
